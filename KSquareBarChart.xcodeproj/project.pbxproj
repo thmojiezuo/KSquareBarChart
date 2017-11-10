@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC15E4C61FB55B85009E1ADB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC15E4C51FB55B85009E1ADB /* AppDelegate.m */; };
+		FC15E4C91FB55B85009E1ADB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC15E4C81FB55B85009E1ADB /* ViewController.m */; };
+		FC15E4CC1FB55B85009E1ADB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC15E4CA1FB55B85009E1ADB /* Main.storyboard */; };
+		FC15E4CE1FB55B85009E1ADB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC15E4CD1FB55B85009E1ADB /* Assets.xcassets */; };
+		FC15E4D11FB55B85009E1ADB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC15E4CF1FB55B85009E1ADB /* LaunchScreen.storyboard */; };
+		FC15E4D41FB55B85009E1ADB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC15E4D31FB55B85009E1ADB /* main.m */; };
+		FC15E4DE1FB55B86009E1ADB /* KSquareBarChartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC15E4DD1FB55B86009E1ADB /* KSquareBarChartTests.m */; };
+		FC15E4E91FB55B86009E1ADB /* KSquareBarChartUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC15E4E81FB55B86009E1ADB /* KSquareBarChartUITests.m */; };
+		FC15E5B31FB58347009E1ADB /* KSquareBarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = FC15E5B21FB58347009E1ADB /* KSquareBarChart.m */; };
+		FC15E5B61FB58366009E1ADB /* KSquareBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FC15E5B51FB58366009E1ADB /* KSquareBar.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC15E4DA1FB55B86009E1ADB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC15E4B91FB55B85009E1ADB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC15E4C01FB55B85009E1ADB;
+			remoteInfo = KSquareBarChart;
+		};
+		FC15E4E51FB55B86009E1ADB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC15E4B91FB55B85009E1ADB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC15E4C01FB55B85009E1ADB;
+			remoteInfo = KSquareBarChart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC15E4C11FB55B85009E1ADB /* KSquareBarChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KSquareBarChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC15E4C41FB55B85009E1ADB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FC15E4C51FB55B85009E1ADB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FC15E4C71FB55B85009E1ADB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FC15E4C81FB55B85009E1ADB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FC15E4CB1FB55B85009E1ADB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC15E4CD1FB55B85009E1ADB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC15E4D01FB55B85009E1ADB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC15E4D21FB55B85009E1ADB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC15E4D31FB55B85009E1ADB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC15E4D91FB55B86009E1ADB /* KSquareBarChartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KSquareBarChartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC15E4DD1FB55B86009E1ADB /* KSquareBarChartTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSquareBarChartTests.m; sourceTree = "<group>"; };
+		FC15E4DF1FB55B86009E1ADB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC15E4E41FB55B86009E1ADB /* KSquareBarChartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KSquareBarChartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC15E4E81FB55B86009E1ADB /* KSquareBarChartUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSquareBarChartUITests.m; sourceTree = "<group>"; };
+		FC15E4EA1FB55B86009E1ADB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC15E5B11FB58347009E1ADB /* KSquareBarChart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSquareBarChart.h; sourceTree = "<group>"; };
+		FC15E5B21FB58347009E1ADB /* KSquareBarChart.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSquareBarChart.m; sourceTree = "<group>"; };
+		FC15E5B41FB58366009E1ADB /* KSquareBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSquareBar.h; sourceTree = "<group>"; };
+		FC15E5B51FB58366009E1ADB /* KSquareBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSquareBar.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC15E4BE1FB55B85009E1ADB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC15E4D61FB55B86009E1ADB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC15E4E11FB55B86009E1ADB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC15E4B81FB55B85009E1ADB = {
+			isa = PBXGroup;
+			children = (
+				FC15E5B01FB582F6009E1ADB /* square */,
+				FC15E4C31FB55B85009E1ADB /* KSquareBarChart */,
+				FC15E4DC1FB55B86009E1ADB /* KSquareBarChartTests */,
+				FC15E4E71FB55B86009E1ADB /* KSquareBarChartUITests */,
+				FC15E4C21FB55B85009E1ADB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC15E4C21FB55B85009E1ADB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC15E4C11FB55B85009E1ADB /* KSquareBarChart.app */,
+				FC15E4D91FB55B86009E1ADB /* KSquareBarChartTests.xctest */,
+				FC15E4E41FB55B86009E1ADB /* KSquareBarChartUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC15E4C31FB55B85009E1ADB /* KSquareBarChart */ = {
+			isa = PBXGroup;
+			children = (
+				FC15E4C41FB55B85009E1ADB /* AppDelegate.h */,
+				FC15E4C51FB55B85009E1ADB /* AppDelegate.m */,
+				FC15E4C71FB55B85009E1ADB /* ViewController.h */,
+				FC15E4C81FB55B85009E1ADB /* ViewController.m */,
+				FC15E4CA1FB55B85009E1ADB /* Main.storyboard */,
+				FC15E4CD1FB55B85009E1ADB /* Assets.xcassets */,
+				FC15E4CF1FB55B85009E1ADB /* LaunchScreen.storyboard */,
+				FC15E4D21FB55B85009E1ADB /* Info.plist */,
+				FC15E4D31FB55B85009E1ADB /* main.m */,
+			);
+			path = KSquareBarChart;
+			sourceTree = "<group>";
+		};
+		FC15E4DC1FB55B86009E1ADB /* KSquareBarChartTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC15E4DD1FB55B86009E1ADB /* KSquareBarChartTests.m */,
+				FC15E4DF1FB55B86009E1ADB /* Info.plist */,
+			);
+			path = KSquareBarChartTests;
+			sourceTree = "<group>";
+		};
+		FC15E4E71FB55B86009E1ADB /* KSquareBarChartUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC15E4E81FB55B86009E1ADB /* KSquareBarChartUITests.m */,
+				FC15E4EA1FB55B86009E1ADB /* Info.plist */,
+			);
+			path = KSquareBarChartUITests;
+			sourceTree = "<group>";
+		};
+		FC15E5B01FB582F6009E1ADB /* square */ = {
+			isa = PBXGroup;
+			children = (
+				FC15E5B41FB58366009E1ADB /* KSquareBar.h */,
+				FC15E5B51FB58366009E1ADB /* KSquareBar.m */,
+				FC15E5B11FB58347009E1ADB /* KSquareBarChart.h */,
+				FC15E5B21FB58347009E1ADB /* KSquareBarChart.m */,
+			);
+			path = square;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC15E4C01FB55B85009E1ADB /* KSquareBarChart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC15E4ED1FB55B86009E1ADB /* Build configuration list for PBXNativeTarget "KSquareBarChart" */;
+			buildPhases = (
+				FC15E4BD1FB55B85009E1ADB /* Sources */,
+				FC15E4BE1FB55B85009E1ADB /* Frameworks */,
+				FC15E4BF1FB55B85009E1ADB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KSquareBarChart;
+			productName = KSquareBarChart;
+			productReference = FC15E4C11FB55B85009E1ADB /* KSquareBarChart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC15E4D81FB55B86009E1ADB /* KSquareBarChartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC15E4F01FB55B86009E1ADB /* Build configuration list for PBXNativeTarget "KSquareBarChartTests" */;
+			buildPhases = (
+				FC15E4D51FB55B86009E1ADB /* Sources */,
+				FC15E4D61FB55B86009E1ADB /* Frameworks */,
+				FC15E4D71FB55B86009E1ADB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC15E4DB1FB55B86009E1ADB /* PBXTargetDependency */,
+			);
+			name = KSquareBarChartTests;
+			productName = KSquareBarChartTests;
+			productReference = FC15E4D91FB55B86009E1ADB /* KSquareBarChartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC15E4E31FB55B86009E1ADB /* KSquareBarChartUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC15E4F31FB55B86009E1ADB /* Build configuration list for PBXNativeTarget "KSquareBarChartUITests" */;
+			buildPhases = (
+				FC15E4E01FB55B86009E1ADB /* Sources */,
+				FC15E4E11FB55B86009E1ADB /* Frameworks */,
+				FC15E4E21FB55B86009E1ADB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC15E4E61FB55B86009E1ADB /* PBXTargetDependency */,
+			);
+			name = KSquareBarChartUITests;
+			productName = KSquareBarChartUITests;
+			productReference = FC15E4E41FB55B86009E1ADB /* KSquareBarChartUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC15E4B91FB55B85009E1ADB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = tenghu;
+				TargetAttributes = {
+					FC15E4C01FB55B85009E1ADB = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					FC15E4D81FB55B86009E1ADB = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FC15E4C01FB55B85009E1ADB;
+					};
+					FC15E4E31FB55B86009E1ADB = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FC15E4C01FB55B85009E1ADB;
+					};
+				};
+			};
+			buildConfigurationList = FC15E4BC1FB55B85009E1ADB /* Build configuration list for PBXProject "KSquareBarChart" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC15E4B81FB55B85009E1ADB;
+			productRefGroup = FC15E4C21FB55B85009E1ADB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC15E4C01FB55B85009E1ADB /* KSquareBarChart */,
+				FC15E4D81FB55B86009E1ADB /* KSquareBarChartTests */,
+				FC15E4E31FB55B86009E1ADB /* KSquareBarChartUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC15E4BF1FB55B85009E1ADB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC15E4D11FB55B85009E1ADB /* LaunchScreen.storyboard in Resources */,
+				FC15E4CE1FB55B85009E1ADB /* Assets.xcassets in Resources */,
+				FC15E4CC1FB55B85009E1ADB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC15E4D71FB55B86009E1ADB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC15E4E21FB55B86009E1ADB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC15E4BD1FB55B85009E1ADB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC15E4C91FB55B85009E1ADB /* ViewController.m in Sources */,
+				FC15E5B61FB58366009E1ADB /* KSquareBar.m in Sources */,
+				FC15E4D41FB55B85009E1ADB /* main.m in Sources */,
+				FC15E4C61FB55B85009E1ADB /* AppDelegate.m in Sources */,
+				FC15E5B31FB58347009E1ADB /* KSquareBarChart.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC15E4D51FB55B86009E1ADB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC15E4DE1FB55B86009E1ADB /* KSquareBarChartTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC15E4E01FB55B86009E1ADB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC15E4E91FB55B86009E1ADB /* KSquareBarChartUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC15E4DB1FB55B86009E1ADB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC15E4C01FB55B85009E1ADB /* KSquareBarChart */;
+			targetProxy = FC15E4DA1FB55B86009E1ADB /* PBXContainerItemProxy */;
+		};
+		FC15E4E61FB55B86009E1ADB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC15E4C01FB55B85009E1ADB /* KSquareBarChart */;
+			targetProxy = FC15E4E51FB55B86009E1ADB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC15E4CA1FB55B85009E1ADB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC15E4CB1FB55B85009E1ADB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC15E4CF1FB55B85009E1ADB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC15E4D01FB55B85009E1ADB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC15E4EB1FB55B86009E1ADB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FC15E4EC1FB55B86009E1ADB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC15E4EE1FB55B86009E1ADB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BJ5C47MMK7;
+				INFOPLIST_FILE = KSquareBarChart/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tenghu.KSquareBarChart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC15E4EF1FB55B86009E1ADB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BJ5C47MMK7;
+				INFOPLIST_FILE = KSquareBarChart/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tenghu.KSquareBarChart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FC15E4F11FB55B86009E1ADB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KSquareBarChartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tenghu.KSquareBarChartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KSquareBarChart.app/KSquareBarChart";
+			};
+			name = Debug;
+		};
+		FC15E4F21FB55B86009E1ADB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KSquareBarChartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tenghu.KSquareBarChartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KSquareBarChart.app/KSquareBarChart";
+			};
+			name = Release;
+		};
+		FC15E4F41FB55B86009E1ADB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KSquareBarChartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tenghu.KSquareBarChartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KSquareBarChart;
+			};
+			name = Debug;
+		};
+		FC15E4F51FB55B86009E1ADB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KSquareBarChartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tenghu.KSquareBarChartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KSquareBarChart;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC15E4BC1FB55B85009E1ADB /* Build configuration list for PBXProject "KSquareBarChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC15E4EB1FB55B86009E1ADB /* Debug */,
+				FC15E4EC1FB55B86009E1ADB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC15E4ED1FB55B86009E1ADB /* Build configuration list for PBXNativeTarget "KSquareBarChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC15E4EE1FB55B86009E1ADB /* Debug */,
+				FC15E4EF1FB55B86009E1ADB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC15E4F01FB55B86009E1ADB /* Build configuration list for PBXNativeTarget "KSquareBarChartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC15E4F11FB55B86009E1ADB /* Debug */,
+				FC15E4F21FB55B86009E1ADB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC15E4F31FB55B86009E1ADB /* Build configuration list for PBXNativeTarget "KSquareBarChartUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC15E4F41FB55B86009E1ADB /* Debug */,
+				FC15E4F51FB55B86009E1ADB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC15E4B91FB55B85009E1ADB /* Project object */;
+}
